@@ -91,3 +91,5 @@ nnoremap n nzzzv
 nnoremap N Nzzzv
 
 vnoremap <leader>p "_dP
+nnoremap <C-a> ggv<S-g>
+
