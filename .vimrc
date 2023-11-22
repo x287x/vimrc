@@ -93,3 +93,11 @@ nnoremap N Nzzzv
 vnoremap <leader>p "_dP
 nnoremap <C-a> ggv<S-g>
 
+" WSL yank support
+let s:clip = '/mnt/c/Windows/System32/clip.exe' 
+if executable(s:clip)
+    augroup WSLYank
+        autocmd!
+		autocmd TextYankPost * if v:event.operator ==# 'y' | call system('cat |' . s:clip, @0) | endif
+    augroup END
+endif
