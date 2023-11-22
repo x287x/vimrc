@@ -1,6 +1,6 @@
 # vimrc
 
-Initial .vimrc configurations
+Initial [.vimrc](.vimrc) configurations
 
 ## References
 
