@@ -89,9 +89,13 @@ nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap n nzzzv
 nnoremap N Nzzzv
+nnoremap * *zzzv
+nnoremap { {zz
+nnoremap } }zz
+
 
 vnoremap <leader>p "_dP
-nnoremap <C-a> ggv<S-g>
+nnoremap <leader>a ggv<S-g>
 
 " WSL yank support
 let s:clip = '/mnt/c/Windows/System32/clip.exe' 
