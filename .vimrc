@@ -95,7 +95,7 @@ nnoremap } }zz
 
 
 vnoremap <leader>p "_dP
-nnoremap <leader>a ggv<S-g>
+nnoremap <leader>a ggV<S-g>
 
 " WSL yank support
 let s:clip = '/mnt/c/Windows/System32/clip.exe' 
